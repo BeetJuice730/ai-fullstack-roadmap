@@ -1,0 +1,50 @@
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.db
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Environment variable files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+
+# MLOps tools
+mlruns/
+DVC/
